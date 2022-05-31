@@ -1,0 +1,235 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"38 C:\Programas\ExemploPWM.X/lcd_4vias.h
+[v _IniciaLCD IniciaLCD `(v  1 e 1 0 ]
+"56
+[v _ComandoLCD ComandoLCD `(v  1 e 1 0 ]
+"80
+[v _EscreveLCD EscreveLCD `(v  1 e 1 0 ]
+"104
+[v _StringLCD StringLCD `(v  1 e 1 0 ]
+"153
+[v _PosicionaLCD PosicionaLCD `(v  1 e 1 0 ]
+"173
+[v _LimpaLCD LimpaLCD `(v  1 e 1 0 ]
+"31 C:\Programas\ExemploPWM.X/pwm.h
+[v _Inicializa_PWM Inicializa_PWM `(v  1 e 1 0 ]
+"50
+[v _DutyCycle_PWM DutyCycle_PWM `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"55 C:\Programas\ExemploPWM.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"2453 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S25 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2483
+[s S34 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S42 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S45 . 1 `S25 1 . 1 0 `S34 1 . 1 0 `S42 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES45  1 e 1 @3969 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S82 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S89 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S96 . 1 `S82 1 . 1 0 `S89 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES96  1 e 1 @3988 ]
+"6242
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+[s S147 . 1 `uc 1 CCP2M 1 0 :4:0 
+`uc 1 DC2B 1 0 :2:4 
+]
+"6261
+[s S150 . 1 `uc 1 CCP2M0 1 0 :1:0 
+`uc 1 CCP2M1 1 0 :1:1 
+`uc 1 CCP2M2 1 0 :1:2 
+`uc 1 CCP2M3 1 0 :1:3 
+`uc 1 DC2B0 1 0 :1:4 
+`uc 1 DC2B1 1 0 :1:5 
+]
+[u S157 . 1 `S147 1 . 1 0 `S150 1 . 1 0 ]
+[v _CCP2CONbits CCP2CONbits `VES157  1 e 1 @4026 ]
+"6313
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+[s S116 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"6354
+[s S120 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S129 . 1 `S116 1 . 1 0 `S120 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES129  1 e 1 @4029 ]
+"7200
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"7298
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+[s S173 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"8532
+[s S176 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S185 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S190 . 1 `S173 1 . 1 0 `S176 1 . 1 0 `S185 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES190  1 e 1 @4081 ]
+"10848
+[v _TMR2ON TMR2ON `VEb  1 e 0 @32338 ]
+"55 C:\Programas\ExemploPWM.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"59
+[v main@Brilho Brilho `i  1 a 2 12 ]
+"60
+[v main@vaivolta vaivolta `uc  1 a 1 11 ]
+"104
+} 0
+"104 C:\Programas\ExemploPWM.X/lcd_4vias.h
+[v _StringLCD StringLCD `(v  1 e 1 0 ]
+{
+[v StringLCD@string string `*.25Cuc  1 p 2 3 ]
+"111
+} 0
+"80
+[v _EscreveLCD EscreveLCD `(v  1 e 1 0 ]
+{
+[v EscreveLCD@dado dado `uc  1 a 1 wreg ]
+"82
+[v EscreveLCD@i i `uc  1 a 1 2 ]
+"80
+[v EscreveLCD@dado dado `uc  1 a 1 wreg ]
+"84
+[v EscreveLCD@dado dado `uc  1 a 1 1 ]
+"98
+} 0
+"153
+[v _PosicionaLCD PosicionaLCD `(v  1 e 1 0 ]
+{
+[v PosicionaLCD@linha linha `uc  1 a 1 wreg ]
+"155
+[v PosicionaLCD@posicao posicao `uc  1 a 1 7 ]
+"153
+[v PosicionaLCD@linha linha `uc  1 a 1 wreg ]
+[v PosicionaLCD@coluna coluna `uc  1 p 1 3 ]
+"156
+[v PosicionaLCD@linha linha `uc  1 a 1 6 ]
+"167
+} 0
+"173
+[v _LimpaLCD LimpaLCD `(v  1 e 1 0 ]
+{
+"176
+} 0
+"31 C:\Programas\ExemploPWM.X/pwm.h
+[v _Inicializa_PWM Inicializa_PWM `(v  1 e 1 0 ]
+{
+[v Inicializa_PWM@Valor Valor `uc  1 a 1 wreg ]
+[v Inicializa_PWM@Valor Valor `uc  1 a 1 wreg ]
+[v Inicializa_PWM@Valor Valor `uc  1 a 1 0 ]
+"40
+} 0
+"38 C:\Programas\ExemploPWM.X/lcd_4vias.h
+[v _IniciaLCD IniciaLCD `(v  1 e 1 0 ]
+{
+"41
+[v IniciaLCD@inicio inicio `[6]uc  1 a 6 4 ]
+"40
+[v IniciaLCD@i i `uc  1 a 1 10 ]
+[v IniciaLCD@F3175 F3175 `[6]uc  1 s 6 F3175 ]
+"51
+} 0
+"56
+[v _ComandoLCD ComandoLCD `(v  1 e 1 0 ]
+{
+[v ComandoLCD@dado dado `uc  1 a 1 wreg ]
+"58
+[v ComandoLCD@i i `uc  1 a 1 1 ]
+"56
+[v ComandoLCD@dado dado `uc  1 a 1 wreg ]
+"60
+[v ComandoLCD@dado dado `uc  1 a 1 2 ]
+"74
+} 0
+"50 C:\Programas\ExemploPWM.X/pwm.h
+[v _DutyCycle_PWM DutyCycle_PWM `(v  1 e 1 0 ]
+{
+[v DutyCycle_PWM@Valor Valor `ui  1 p 2 0 ]
+"54
+} 0
